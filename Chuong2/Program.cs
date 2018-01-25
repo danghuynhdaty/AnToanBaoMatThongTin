@@ -10,6 +10,12 @@ namespace Chuong2
     {
         static void Main(string[] args)
         {
+            //Console.WriteLine(Ceasar.Encrypt("DHDY",1));
+
+
+            Console.WriteLine(Playfair.Encipher("DHDY","D"));
+
+            Console.ReadKey();
         }
     }
 }
